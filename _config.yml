@@ -1,3 +1,4 @@
+#site variables
 remote_theme: mmistakes/so-simple-theme
 locale: "en-GB"
 title: Lottie Clarke
@@ -8,3 +9,15 @@ read_time: true
 words_per_minute: 200
 mathjax: true
 tag_archive_path: "/tags/#"
+
+#footer variables
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/astronomnomy
+    icon: fab fa-twitter-square
+  - title: Tumblr
+    url: https://astronomnomy.tumblr.com
+    icon: fab fa-tumblr-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
