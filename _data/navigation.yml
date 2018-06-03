@@ -1,1 +1,8 @@
-
+- title: Main
+  url: /main/
+- title: About
+  url: /about/
+- title: Samples
+  url: /samples/
+- title: Blog
+  url: /blog/
