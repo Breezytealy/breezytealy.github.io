@@ -1,8 +1,9 @@
 ---
-layout: post
-project: "Harry Potter Astronomy Textbook"
+layout: page
 title: "The Cosmic Backgrounds"
 date: 2012-02-20
+category: fictional-science
+collection: "Harry Potter Astronomy Textbook"
 tags: 
 - sample
 - ficsci
