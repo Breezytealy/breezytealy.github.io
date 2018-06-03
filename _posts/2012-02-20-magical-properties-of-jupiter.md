@@ -1,8 +1,8 @@
 ---
 layout: post
-project: "Harry Potter Astronomy Textbook"
 title: "The Magical Properties of Jupiter"
 date: 2012-02-20
+collection: "Harry Potter Astronomy Textbook"
 tags: 
 - sample
 - ficsci
