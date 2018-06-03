@@ -24,7 +24,7 @@ title: samples
 </ul>-->
 	  {% for sample in site.tags.sample %}
 	    	{% if sample.tags contains "ficsci" %}
-	    	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{sample.project}}: {{ sample.title }}</a></li>
+	    	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{sample.collection}}: {{ sample.title }}</a></li>
 		    <p>{{ sample.excerpt }}</p>
 		{% endif %}
 	  {% endfor %}
@@ -34,7 +34,7 @@ title: samples
 <ul class="samples">
 	  {% for sample in site.tags.sample %}
 	    	{% if sample.tags contains "scicomm" %}
-	            <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.project }}: {{ sample.title }}</a></li>
+	            <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.collection }}: {{ sample.title }}</a></li>
 		    <p>{{ sample.excerpt }}</p>
 	        {% endif %}
 	  {% endfor %}
