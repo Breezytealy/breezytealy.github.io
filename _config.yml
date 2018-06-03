@@ -1,1 +1,10 @@
 remote_theme: mmistakes/so-simple-theme
+locale: "en-GB"
+title: Lottie Clarke
+description: Lottie Clarke's writing portfolio
+logo: /images/AVATAR.png
+url: https://breezytealy.github.io
+read_time: true
+words_per_minute: 200
+mathjax: true
+tag_archive_path: "/tags/#"
