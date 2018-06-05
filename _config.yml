@@ -10,6 +10,12 @@ words_per_minute: 200
 mathjax: true
 tag_archive_path: "/tags/#"
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+
 #footer variables
 footer_links:
   - title: Twitter
