@@ -2,31 +2,13 @@
 layout: tag
 title: samples
 ---
-<!--<head>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#slider1').bxSlider({
-                auto: true,
-                pager: true,
-                slideWidth: 800,
-                captions: true
-            });
-        });
-    </script>
-</head>-->
 
 <body>
 <h2 class="taxonomy-title">Fictional Science</h2>
 	<p>Supporting the fantastical with a nugget of scientific truth, leading readers into a world where anything's possible..</p>
 <ul class="samples">
-<!--	<ul id="slider1">
-  <li><img src="/images/1-6GShelmet.png" title="Groundbreaking Science: The Guide to Ki - Superhero Helmet" /></li>
-  <li><img src="/images/1-8auraspectra.png" title="Groundbreaking Science: The Guide to Ki - Explaining Aura" /></li>
-</ul>-->
 	  {% for entry in site.tags.sample %}
 	    	{% if entry.tags contains "ficsci" %}
-	    	   <!-- <li><span> <a href="{{ entry.url }}" title="{{ entry.title }}">{{entry.collection}}: {{ entry.title }}</a></li>
-		    <p>{{ entry.excerpt }}</p>-->
                    {% include entry.html %}
 		{% endif %}
 	  {% endfor %}
@@ -37,8 +19,7 @@ title: samples
 <ul class="samples">
 	  {% for sample in site.tags.sample %}
 	    	{% if sample.tags contains "scicomm" %}
-	            <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.collection }}: {{ sample.title }}</a></li>
-		    <p>{{ sample.excerpt }}</p>
+	            {% include entry.html %}
 	        {% endif %}
 	  {% endfor %}
 </ul>
