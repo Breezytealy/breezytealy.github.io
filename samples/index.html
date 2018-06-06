@@ -6,11 +6,13 @@ title: samples
 <body>
 <h2 class="taxonomy-title">Fictional Science</h2>
 	<p>Supporting the fantastical with a nugget of scientific truth, leading readers into a world where anything's possible..</p>
+	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {%- for entry in site.tags.sample -%}
 	    	{% if entry.tags contains "ficsci" %}
                    {% include entry.html %}
 		{% endif %}
 	  {% endfor %}
+	</div>
 
 <h2 class="taxonomy-title">Science Communication</h2>
 	<p>Engaging all ages with science - shining a light on cutting-edge research and bringing it to within reach, where it should be.</p>
