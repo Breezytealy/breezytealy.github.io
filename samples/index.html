@@ -2,7 +2,7 @@
 layout: tag
 title: samples
 ---
-<head>
+<!--<head>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#slider1').bxSlider({
@@ -13,7 +13,7 @@ title: samples
             });
         });
     </script>
-</head>
+</head>-->
 
 <body>
 <h2 class="taxonomy-title">Fictional Science</h2>
@@ -28,7 +28,6 @@ title: samples
 	    	   <!-- <li><span> <a href="{{ entry.url }}" title="{{ entry.title }}">{{entry.collection}}: {{ entry.title }}</a></li>
 		    <p>{{ entry.excerpt }}</p>-->
                    {% include entry.html %}
-{%- endfor -%}
 		{% endif %}
 	  {% endfor %}
 </ul>
