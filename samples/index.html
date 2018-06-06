@@ -6,7 +6,7 @@ title: samples
 <body>
 <h2 class="taxonomy-title">Fictional Science</h2>
 	<p>Supporting the fantastical with a nugget of scientific truth, leading readers into a world where anything's possible..</p>
-	  {% for entry in site.tags.sample %}
+	  {%- for entry in site.tags.sample -%}
 	    	{% if entry.tags contains "ficsci" %}
                    {% include entry.html %}
 		{% endif %}
