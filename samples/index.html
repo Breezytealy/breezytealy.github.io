@@ -23,10 +23,12 @@ title: samples
   <li><img src="/images/1-6GShelmet.png" title="Groundbreaking Science: The Guide to Ki - Superhero Helmet" /></li>
   <li><img src="/images/1-8auraspectra.png" title="Groundbreaking Science: The Guide to Ki - Explaining Aura" /></li>
 </ul>-->
-	  {% for sample in site.tags.sample %}
-	    	{% if sample.tags contains "ficsci" %}
-	    	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{sample.collection}}: {{ sample.title }}</a></li>
-		    <p>{{ sample.excerpt }}</p>
+	  {% for entry in site.tags.sample %}
+	    	{% if entry.tags contains "ficsci" %}
+	    	   <!-- <li><span> <a href="{{ entry.url }}" title="{{ entry.title }}">{{entry.collection}}: {{ entry.title }}</a></li>
+		    <p>{{ entry.excerpt }}</p>-->
+                   {% include entry.html %}
+{%- endfor -%}
 		{% endif %}
 	  {% endfor %}
 </ul>
