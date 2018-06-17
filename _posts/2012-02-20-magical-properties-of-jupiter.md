@@ -6,7 +6,7 @@ collection: "Harry Potter Astronomy Textbook"
 tags: 
 - sample
 - work
-- ficsci
+- fi-sci
 ---
 
 Jupiter is considered by many to be a celestial object worthy of awe. Many Muggle cultures have worshipped the planet as the King of the Gods, as in ancient Greece; as the ruler of the movements of planets, as in Vedic Astronomy; or as a God of those in high-office, as in ancient Rome. Although the largest planet in the Solar System, Jupiter’s grand nature throughout the ages is not linked to its size as ancient astronomers would only have been able to observe its brightness. At its peak, Jupiter is the third brightest object in the night sky (after the Moon and Venus), cementing the planet as one of great importance in many belief systems. In modern astronomy, Jupiter is linked to poisons, creativity, and governance. <!--more-->
