@@ -12,7 +12,6 @@ image: /images/IMG_20170914_100039.jpg
 	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {%- for entry in site.tags.work offset:1 limit:1 -%}
                    {% include entry.html %}
-		{% endif %}
 	  {% endfor %}
 	</div>
 
@@ -22,7 +21,6 @@ image: /images/IMG_20170914_100039.jpg
 	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {% for entry in site.tags.blog offset:1 limit:1 %}
 	            {% include entry.html %}
-	        {% endif %}
 	  {% endfor %}
 	</div>
 </body>
