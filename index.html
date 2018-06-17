@@ -10,7 +10,7 @@ image: /images/10386924_10152441278681100_1716011058682028476_o.jpg
 <h2 class="taxonomy-title">Latest Work</h2>
 	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {%- for entry in site.tags.work offset:1 limit:1 -%}
-                   {% include breezyentry.html %}
+                   {% include entrybreezy.html %}
 	  {% endfor %}
 	</div>
 
@@ -19,7 +19,7 @@ image: /images/10386924_10152441278681100_1716011058682028476_o.jpg
 <h2 class="taxonomy-title">Latest Blog</h2>
 	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {% for entry in site.tags.blog offset:1 limit:1 %}
-	            {% include breezyentry.html %}
+	            {% include entrybreezy.html %}
 	  {% endfor %}
 	</div>
 </body>
