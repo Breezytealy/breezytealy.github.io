@@ -12,7 +12,7 @@ image: /images/IMG_20170914_100039.jpg
 	<p>Supporting the fantastical with a nugget of scientific truth, leading readers into a world where anything's possible..</p>
 	<div class="entries-{{ page.entries_layout | default: 'list' }}">
 	  {%- for entry in site.tags.sample -%}
-	    	{% if entry.tags contains "ficsci" %}
+	    	{% if entry.tags contains "ficsci" limit:1 %}
                    {% include entry.html %}
 		{% endif %}
 	  {% endfor %}
