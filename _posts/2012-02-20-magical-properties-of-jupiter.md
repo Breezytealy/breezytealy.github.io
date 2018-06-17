@@ -5,6 +5,7 @@ date: 2012-02-20
 collection: "Harry Potter Astronomy Textbook"
 tags: 
 - sample
+- work
 - ficsci
 ---
 
