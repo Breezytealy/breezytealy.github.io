@@ -7,7 +7,7 @@ collection: "Harry Potter Astronomy Textbook"
 tags: 
 - sample
 - work
-- ficsci
+- fi-sci
 ---
 
 What *is* magic, and how did it come to be? Can it be distilled to hold in the hands, or is it an unextractable facet of an object, like colour or temperature? A true understanding of the very essence of magic and its properties has long been sought after, and many believe uncovering its origins can lead to full mastery. <!--more-->
