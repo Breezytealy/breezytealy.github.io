@@ -9,8 +9,6 @@ tags:
 - work
 - fi-sci
 ---
-##1.6 - Colour: From Source to Perception (part 1)
-
 I hope you can find it in your heart to forgive this seeming tangent from our ongoing discussion of genki. There’s a particular, wonderful subtlety of ki-sense that I wish to explain fully and to do so requires a crash course in… well most of modern science, to be frank. You may be tempted to skip this section as I guess for many readers it tugs on those threadbare, unpleasant memories of high school (or memories yet to be made for you younger readers). In that case I hope you at least skim this section and feel encouraged to return as we progress. Some of the concepts I describe here will appear in modified forms throughout the rest of the textbook, and I would hate for you to miss what I believe are astounding parallels throughout the natural world. 
 
 I’ve been attempting to paint the appearance of genki for a while now to give you the impression of what the world looks like to me. I say attempt, not to appear cloyingly modest about my artwork (I am doing my best!), but to impress that it is extremely difficult to portray ki with the limited visual palette alone. The images I’ve painted are an ugly mess of colour, I admit. In paint Pan appears an orange/brown, although I hope you could make out the colours were in fact red and green (and some yellow). With paint, colours run and mix. If you put every colour of the rainbow on a page it appears a murky brown. In ki-sense this mixing doesn’t occur however, and the colours stay bright and distinct.
