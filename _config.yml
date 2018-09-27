@@ -26,7 +26,7 @@ footer_links:
     icon: fab fa-tumblr-square
   - title: Email
     url: mailto:lottie@lottieclarkesci.com
-    icon: fab fa-at
+    icon: fas fa-at
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
