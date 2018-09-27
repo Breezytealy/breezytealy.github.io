@@ -24,6 +24,9 @@ footer_links:
   - title: Tumblr
     url: https://astronomnomy.tumblr.com
     icon: fab fa-tumblr-square
+  - title: Email
+    url: mailto:lottie@lottieclarkesci.com
+    icon: Email fa-at-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
