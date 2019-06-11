@@ -19,7 +19,7 @@ plugins:
 #footer variables
 footer_links:
   - title: Twitter
-    url: https://twitter.com/astronomnomy
+    url: https://twitter.com/lottieclarkesci
     icon: fab fa-twitter-square
   - title: Tumblr
     url: https://astronomnomy.tumblr.com
